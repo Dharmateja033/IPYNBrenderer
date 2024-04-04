@@ -7,5 +7,7 @@ py-youtube
 pytest
 tox
 black
-flake
+flake8
+#flake
 mypy
+-e .
