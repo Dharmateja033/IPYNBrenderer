@@ -66,5 +66,3 @@ def renderer_Youtube_video(URL:str, width:int=780, height:int=500) -> str:
     except Exception as e:
         raise e
 
-
-     
