@@ -1,6 +1,6 @@
 from IPython import display
-from IPYNBrenderer.custom_exception import InvalidURLException
-from IPYNBrenderer.logger import logger
+from src.IPYNBrenderer.custom_exception import InvalidURLException
+from src.IPYNBrenderer.logger import logger
 from py_youtube import Data
 from ensure import ensure_annotations
 
@@ -43,7 +43,7 @@ def get_time_info(URL:str)->int:
     
     
 @ensure_annotations
-def renderer_Youtube_video(URL:str, width:int=780, height:int=500) -> str:
+def render_Youtube_video(URL:str, width:int=780, height:int=500) -> str:
     try:
         if URL is None:
             raise InvalidURLException("Url should not be none")
