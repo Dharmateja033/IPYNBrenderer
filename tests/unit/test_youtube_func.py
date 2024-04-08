@@ -1,9 +1,7 @@
 import pytest
-# from src.IPYNBrenderer.youtube import get_time_info
-# from src.IPYNBrenderer.custom_exception import InvalidURLException
-
 from IPYNBrenderer import get_time_info
 from IPYNBrenderer.custom_exception import InvalidURLException
+
 
 good_URL_data = [
     ("https://youtu.be/roO5VGxOw2s", 0),

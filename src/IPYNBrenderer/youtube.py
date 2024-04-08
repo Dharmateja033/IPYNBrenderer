@@ -1,11 +1,8 @@
 from IPython import display
-# from src.IPYNBrenderer.custom_exception import InvalidURLException
-# from src.IPYNBrenderer.logger import logger
-from py_youtube import Data
-from ensure import ensure_annotations
-
 from IPYNBrenderer.custom_exception import InvalidURLException
 from IPYNBrenderer.logger import logger
+from py_youtube import Data
+from ensure import ensure_annotations
 
 
 @ensure_annotations
