@@ -1,0 +1,72 @@
+# Project information
+site_name: IPYNBrenderer033
+# defeine TOC or order of website-
+nav:
+  - Home: index.md
+
+site_author: Dharma033
+site_description: >-
+  A library for rendering youtube and reference websites in Jupyter Notebook
+
+# Repository
+repo_name: Dharmateja033/IPYNBrenderer033
+repo_url: https://github.com//IPYNBrenderer033
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime    
+  # logo: PyTorch_logo_icon.svg
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/Dharmateja033
+    - icon: fontawesome/brands/linkedin
+      link: linkedin.com/in/dharma-teja-92778b264
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/dharma_teja_tony/
+
+extra_javascript:
+  - javascripts/mathjax.js
+  # - javascripts/tawk.js
+  - https://polyfill.io/v3/polyfill.min.js #?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  
+  
+plugins:
+  - search
+
+copyright: |
+  &copy; 2022 <a href="https://github.com/Dharmateja033"  target="_blank" rel="noopener">Dharma Teja</a>
