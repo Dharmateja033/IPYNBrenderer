@@ -3,6 +3,7 @@ site_name: IPYNBrenderer033
 # defeine TOC or order of website-
 nav:
   - Home: index.md
+  - APIreference: APIreference.md
 
 site_author: Dharma033
 site_description: >-
@@ -41,7 +42,7 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/Dharmateja033
     - icon: fontawesome/brands/linkedin
-      link: linkedin.com/in/dharma-teja-92778b264
+      link: https://www.linkedin.com/in/dharma-teja-92778b264/
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/dharma_teja_tony/
 
@@ -69,4 +70,4 @@ plugins:
   - search
 
 copyright: |
-  &copy; 2022 <a href="https://github.com/Dharmateja033"  target="_blank" rel="noopener">Dharma Teja</a>
+  &copy; 2023 <a href="https://github.com/Dharmateja033"  target="_blank" rel="noopener">Dharma Teja</a>
