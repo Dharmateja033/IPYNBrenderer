@@ -1,6 +1,6 @@
 import pytest
-from src.IPYNBrenderer import get_time_info
-from IPYNBrenderer.custom_exception import InvalidURLException
+from IPYNBrenderer033 import get_time_info
+from IPYNBrenderer033.custom_exception import InvalidURLException
 
 
 good_URL_data = [

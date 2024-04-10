@@ -1,6 +1,6 @@
 import pytest
-from IPYNBrenderer.youtube import render_Youtube_video
-from IPYNBrenderer.custom_exception import InvalidURLException
+from IPYNBrenderer033.youtube import render_Youtube_video
+from IPYNBrenderer033.custom_exception import InvalidURLException
 
 
 class TestYTvideoRenderer:
