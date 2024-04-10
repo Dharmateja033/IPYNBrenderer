@@ -10,4 +10,5 @@ black
 flake8
 #flake
 mypy
+mkdocs-material
 -e .
